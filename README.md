@@ -14,7 +14,7 @@
 
 &#x20;
 
-See repositoorium sisaldab minu DACA õppeprojekte ja portfoolio.
+See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
 
 &#x20;
 
