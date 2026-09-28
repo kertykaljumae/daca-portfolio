@@ -1,62 +1,64 @@
-\# DACA Portfoolio
+\# DACA Portfolio
 
 &#x20;
 
-\*\*Programm:\*\* Data Analyst Career Accelerator (DACA)
+\*\*Program:\*\* Data Analyst Career Accelerator (DACA)
 
-\*\*Osaleja:\*\* \[Kerty Kaljumäe]
+\*\*Participant:\*\* \[Kerty Kaljumäe]
 
-\*\*Algus:\*\* \[21.09.2026]
-
-&#x20;
-
-\## Kirjeldus
+\*\*Start Date:\*\* \[21.09.2026]
 
 &#x20;
 
-See repositoorium sisaldab minu DACA õppeprojekte ja portfooliot.
+\## Description
 
 &#x20;
 
-\## Projektid
+This repository contains my DACA learning projects and portfolio.
+
+&#x20;
+
+\## Projects
 
 &#x20;
 
 \### Week 0: Onboarding
 
-\- GitHub seadistamine ✅
+\- GitHub setup ✅
 
-\- Supabase seadistamine ✅
+\- Supabase setup ✅
 
-&#x20;
-
-\### Week 1: SQL Põhitõed
-
-\- (tulemas...)
+\- VS Code setup ✅
 
 &#x20;
 
-\### Week 2: SQL Andmete Puhastamine
+\### Week 1: SQL Basics
 
-\- (tulemas...)
+\- (coming soon...)
 
 &#x20;
 
-\## Oskused
+\### Week 2: SQL Data Cleaning
+
+\- (coming soon...)
+
+&#x20;
+
+\## Skills
 
 
 
 \- \*\*SQL:\*\* PostgreSQL, Supabase
 
-\- \*\*Python:\*\* pandas, plotly (tulemas...)
+\- \*\*Python:\*\* pandas, plotly (coming soon...)
 
-\- \*\*Visualiseerimine:\*\* Power BI / Streamlit (tulemas...)
+\- \*\*Visualization:\*\* Power BI / Streamlit (coming soon...)
 
-\- \*\*Tööriistad:\*\* Git, GitHub, VS Code
+\- \*\*Tools:\*\* Git, GitHub, VS Code
 
 &#x20;
 
-\## Kontakt
+\## Contact
 
 &#x20;
 
