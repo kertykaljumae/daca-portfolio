@@ -4,9 +4,9 @@
 
 \*\*Program:\*\* Data Analyst Career Accelerator (DACA)
 
-\*\*Participant:\*\* \[Kerty Kaljumäe]
+\*\*Participant:\*\* Kerty Kaljumäe
 
-\*\*Start Date:\*\* \[21.09.2026]
+\*\*Start Date:\*\* 21.09.2026
 
 &#x20;
 
