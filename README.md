@@ -2,11 +2,11 @@
 
 &#x20;
 
-*\*Program:\*\* Data Analyst Career Accelerator (DACA)
+**Program:** Data Analyst Career Accelerator (DACA)
 
-*\*Participant:\*\* Kerty Kaljumäe
+**Participant:** Kerty Kaljumäe
 
-*\*Start Date:\*\* 21.09.2026
+**Start Date:** 21.09.2026
 
 &#x20;
 
@@ -48,13 +48,13 @@ This repository contains my DACA learning projects and portfolio.
 
 
 
-- \*\*SQL:\*\* PostgreSQL, Supabase
+- **SQL:** PostgreSQL, Supabase
 
-- \*\*Python:\*\* pandas, plotly (coming soon...)
+- **Python:** pandas, plotly (coming soon...)
 
-- \*\*Visualization:\*\* Power BI / Streamlit (coming soon...)
+- **Visualization:** Power BI / Streamlit (coming soon...)
 
-- \*\*Tools:\*\* Git, GitHub, VS Code
+- **Tools:** Git, GitHub, VS Code
 
 &#x20;
 
@@ -62,7 +62,7 @@ This repository contains my DACA learning projects and portfolio.
 
 &#x20;
 
-- \*\*GitHub:\*\* \[github.com/kertykaljumae](https://github.com/kertykaljumae)
+- **GitHub:** \[github.com/kertykaljumae](https://github.com/kertykaljumae)
 
-- \*\*Email:\*\* kerty.kaljumae@gmail.com
+- **Email:** kerty.kaljumae@gmail.com
 
