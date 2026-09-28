@@ -1,16 +1,16 @@
-\# DACA Portfolio
+# DACA Portfolio
 
 &#x20;
 
-\*\*Program:\*\* Data Analyst Career Accelerator (DACA)
+*\*Program:\*\* Data Analyst Career Accelerator (DACA)
 
-\*\*Participant:\*\* Kerty Kaljumäe
+*\*Participant:\*\* Kerty Kaljumäe
 
-\*\*Start Date:\*\* 21.09.2026
+*\*Start Date:\*\* 21.09.2026
 
 &#x20;
 
-\## Description
+## Description
 
 &#x20;
 
@@ -18,51 +18,51 @@ This repository contains my DACA learning projects and portfolio.
 
 &#x20;
 
-\## Projects
+## Projects
 
 &#x20;
 
-\### Week 0: Onboarding
+### Week 0: Onboarding
 
-\- GitHub setup ✅
+- GitHub setup ✅
 
-\- Supabase setup ✅
+- Supabase setup ✅
 
-\- VS Code setup ✅
-
-&#x20;
-
-\### Week 1: SQL Basics
-
-\- (coming soon...)
+- VS Code setup ✅
 
 &#x20;
 
-\### Week 2: SQL Data Cleaning
+### Week 1: SQL Basics
 
-\- (coming soon...)
-
-&#x20;
-
-\## Skills
-
-
-
-\- \*\*SQL:\*\* PostgreSQL, Supabase
-
-\- \*\*Python:\*\* pandas, plotly (coming soon...)
-
-\- \*\*Visualization:\*\* Power BI / Streamlit (coming soon...)
-
-\- \*\*Tools:\*\* Git, GitHub, VS Code
+- (coming soon...)
 
 &#x20;
 
-\## Contact
+### Week 2: SQL Data Cleaning
+
+- (coming soon...)
 
 &#x20;
 
-\- \*\*GitHub:\*\* \[github.com/kertykaljumae](https://github.com/kertykaljumae)
+## Skills
 
-\- \*\*Email:\*\* kerty.kaljumae@gmail.com
+
+
+- \*\*SQL:\*\* PostgreSQL, Supabase
+
+- \*\*Python:\*\* pandas, plotly (coming soon...)
+
+- \*\*Visualization:\*\* Power BI / Streamlit (coming soon...)
+
+- \*\*Tools:\*\* Git, GitHub, VS Code
+
+&#x20;
+
+## Contact
+
+&#x20;
+
+- \*\*GitHub:\*\* \[github.com/kertykaljumae](https://github.com/kertykaljumae)
+
+- \*\*Email:\*\* kerty.kaljumae@gmail.com
 
