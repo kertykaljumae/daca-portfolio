@@ -1,1 +1,1 @@
-# Nädal 1: SQL Basics
+# Week 1: SQL Basics
