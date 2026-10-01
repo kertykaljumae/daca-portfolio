@@ -34,7 +34,10 @@ This repository contains my DACA learning projects and portfolio.
 
 ### Week 1: SQL Basics
 
-- (coming soon...)
+- Explored the UrbanStyle dataset using SQL
+- Practiced filtering, sorting, and analyzing data
+- Identified missing values and explored data quality
+- SQL: `SELECT`, `WHERE`, `COUNT`, `DISTINCT`, `AS`, `ORDER BY`, `BETWEEN`, `LIKE`, `AND`, `OR`
 
 &#x20;
 
