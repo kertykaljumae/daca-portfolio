@@ -17,7 +17,7 @@
 
 ## Files
 - `week1_products_exploration.sql` -- my SQL queries
-- `week1_results_screenshots.pmd` -- screenshots of the results
+- `week1_results_screenshots.md` -- screenshots of the results
 
 ## Teamwork
 - [Data Landscape](https://docs.google.com/presentation/d/161mYvYUS1QDQuT8mBqgDpTf0yS7nxSFBUKqYIfqK_oo/edit?slide=id.h65b33f36280e1186_0_10#slide=id.h65b33f36280e1186_0_109)
