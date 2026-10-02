@@ -67,5 +67,24 @@ SELECT product_id, product_name, eco_certified
 FROM products
 WHERE eco_certified IS NULL;
 
+--Unikaalsete toodete arv
+SELECT count (DISTINCT product_name) FROM products;
 
+--Dubleerivad tooted
+SELECT *
+FROM products
+WHERE product_name IN (
+    SELECT product_name
+    FROM products
+    GROUP BY product_name
+    HAVING COUNT(*) > 1
+)
+ORDER BY product_name;
+
+--Dubleerivad tootenimetused
+SELECT product_name, COUNT(*) AS count
+FROM products
+GROUP BY product_name
+HAVING COUNT(*) > 1
+ORDER BY count DESC;
 
