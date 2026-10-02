@@ -88,3 +88,22 @@ GROUP BY product_name
 HAVING COUNT(*) > 1
 ORDER BY count DESC;
 
+--Tooted kategooriati kokku
+SELECT category, COUNT(*) AS toodete_arv
+FROM products
+GROUP BY category
+ORDER BY toodete_arv DESC;
+
+--Keskmised hinnad kategooriati
+SELECT category,
+       COUNT(*) AS toodete_arv,
+       MIN(retail_price) AS min_hind,
+       MAX(retail_price) AS max_hind
+FROM products
+GROUP BY category
+ORDER BY max_hind DESC;
+
+--Tooted, mille hind on üle 50 EUR konkreetses kategoorias
+SELECT * FROM products
+WHERE retail_price > 50 AND category = 'naiste_riided'
+ORDER BY retail_price DESC;
