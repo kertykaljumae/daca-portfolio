@@ -41,4 +41,4 @@
 - `SQL_result_1.png`, `SQL_result_2.png` -- screenshots of the results
 
 ## Teamwork
-- [Data Cleaning](https://docs.google.com/presentation/d/1eH0oy5EjVSSXujXePEVqBoE1ndanLZXcpGtI95Zl9yA/edit?slide=id.h74c76558572e6666_1_10#slide=id.h74c76558572e6666_1_10)
+- [SQL Data Quality and Cleaning Preparation](https://docs.google.com/presentation/d/1eH0oy5EjVSSXujXePEVqBoE1ndanLZXcpGtI95Zl9yA/edit?slide=id.h74c76558572e6666_1_10#slide=id.h74c76558572e6666_1_10)
