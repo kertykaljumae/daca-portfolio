@@ -39,6 +39,7 @@
 ## Files
 - `week2_cross_validation.sql` -- my SQL queries
 - `SQL_result_1.png`, `SQL_result_2.png` -- screenshots of the results
+- `week2_cross_validation_report.md`-- Cross-Validation and Data Quality Checks
 
 ## Teamwork
 - [SQL Data Quality and Cleaning Preparation](https://docs.google.com/presentation/d/1eH0oy5EjVSSXujXePEVqBoE1ndanLZXcpGtI95Zl9yA/edit?slide=id.h74c76558572e6666_1_10#slide=id.h74c76558572e6666_1_10)
