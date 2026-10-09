@@ -17,7 +17,7 @@
 
 ## Recommendations
 
-- Investigate why 592 customers have no recorded purchases and consider opportunities for first-purchase marketing campaigns.
+- Investigate why 592 customers have no recorded purchases and consider opportunities for first-purchase marketing campaigns (if not duplicates).
 
 - Review the 12 unsold product records for potential duplicates and verify their details before making any changes.
 
