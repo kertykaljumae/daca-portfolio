@@ -32,7 +32,7 @@
 I used ChatGPT to support writing, understanding, and debugging SQL queries. AI helped me understand CTEs, CASE WHEN, LEFT JOIN, COALESCE, GROUP BY, HAVING, and window functions (RANK, LAG), as well as identify and correct errors in queries. I also used AI to visualize customer segmentation results, formulate marketing recommendations, and improve my README documentation.
 
 ## Files
-- `week4_role B_customer_segmentation.sql` -- my SQL queries
+- `week4_role B_customer_segmentation_aggregation.sql` -- my SQL queries
 - `SQL_result_W4.png` -- screenshots of the results
 
 ## Teamwork
