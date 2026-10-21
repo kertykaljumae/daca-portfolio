@@ -26,9 +26,8 @@
 - Learned to turn SQL results into marketing recommendations.
 
 ## Files
-
-- SQL queries and screenshots/charts of the results.
+- `week4_role B_customer_segmentation.sql` -- my SQL queries
+- `SQL_result_W4.png` -- screenshots of the results
 
 ## Teamwork
-
-- Shared findings and recommendations for the team's Week 4 presentation.
+- [SQL Aggregation -- team analysis and weekly presentation](https://docs.google.com/presentation/d/1Nc3CT6BlMXiPIJu1KvxRVRQWzAEdJ32FoD-Oh7y5uyo/edit?usp=sharing)
