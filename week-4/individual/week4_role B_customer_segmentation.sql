@@ -1,6 +1,6 @@
 -- Kliendigruppide analüüs CTE-ga
 
--- Leian iga kleindi kogukäibe ja segmenteerin nad selle põhjal gruppidesse "VIP" (kogukäive vähemalt 10000€), "Regular" (kogukäive vähemalt 1000€) ja "Uus" (kogukäive alla 1000€). 
+-- Leian iga kleindi kogukäibe ja segmenteerin nad selle põhjal gruppidesse "VIP" (kogukäive vähemalt 10000€), "Regular" (kogukäive vähemalt 500€) ja "Uus" (kogukäive alla 500€). 
 
 WITH kliendi_kokkuvote AS (
   SELECT
@@ -20,7 +20,8 @@ SELECT
   kogukäive,
   CASE
     WHEN kogukäive >= 10000 THEN 'VIP'
-    WHEN kogukäive >= 1000 THEN 'Regular'
+    WHEN kogukäive >= 500 THEN 'Regular'
+    ELSE 'Uus'
   END AS segment
 FROM kliendi_kokkuvote
 ORDER BY kogukäive DESC;
@@ -40,7 +41,7 @@ WITH kliendi_kokkuvote AS (
 SELECT
     CASE
         WHEN kogukäive >= 10000 THEN 'VIP'
-        WHEN kogukäive >= 1000 THEN 'Regular'
+        WHEN kogukäive >= 500 THEN 'Regular'
         ELSE 'Uus'
     END AS segment,
     COUNT(*) AS klientide_arv
@@ -48,7 +49,7 @@ FROM kliendi_kokkuvote
 GROUP BY segment
 ORDER BY klientide_arv;
 
--- Segmendis VIP on 15, Regular 921, Uus 2214 klienti (sh ostudeta kliendid).
+-- Segmendis VIP on 15, Regular 1707, Uus 1428 klienti (sh ostudeta kliendid).
 
 
 -- Leian TOP10 klienti kasutades:
@@ -91,7 +92,7 @@ WITH kliendi_kokkuvote AS (
 SELECT
     CASE
         WHEN kogukäive >= 10000 THEN 'VIP'
-        WHEN kogukäive >= 1000 THEN 'Regular'
+        WHEN kogukäive >= 500 THEN 'Regular'
         ELSE 'Uus'
     END AS segment,
     COUNT(*) AS klientide_arv,
@@ -101,7 +102,7 @@ FROM kliendi_kokkuvote
 GROUP BY segment
 ORDER BY keskmine_käive DESC;
 
--- VIP klientide keskmine käive 21266€, Regular klientidel 1638€ ja Uus klientidel 359€. Regular klientide kogukäive 1.5mln€, Uus klientidel 795th€ ja VIP klientidel 319th€
+-- VIP klientide keskmine käive 21266€, Regular klientidel 1224€ ja Uus klientidel 150€. Regular klientide kogukäive 2.1mln€, Uus klientidel 214th€ ja VIP klientidel 319th€
 
 
 -- Millistes linnades on kõige rohkem VIP kliente?
@@ -140,7 +141,7 @@ SELECT
     linn,
     COUNT(*) AS regular_klientide_arv
 FROM kliendi_kokkuvote
-WHERE kogukäive < 10000 AND kogukäive >= 1000
+WHERE kogukäive < 10000 AND kogukäive >= 500
 GROUP BY linn
 ORDER BY regular_klientide_arv DESC;
 
@@ -162,7 +163,7 @@ SELECT
     linn,
     COUNT(*) AS uus_klientide_arv
 FROM kliendi_kokkuvote
-WHERE kogukäive < 1000
+WHERE kogukäive < 500
 GROUP BY linn
 ORDER BY uus_klientide_arv DESC;
 
