@@ -2,10 +2,12 @@
 
 ## What I Did
 
-- Used a CTE, `LEFT JOIN`, and `COALESCE()` to calculate customer spending, including customers without purchases.
-- Segmented customers with `CASE WHEN`: VIP (≥ €10,000), Regular (≥ €500 and < €10,000), and Basic (< €500).
-- Analyzed segment sizes, average spending, total revenue, TOP 10 customers, and customer distribution by city.
-- Used `HAVING` to filter customers with at least two orders and `RANK()` to rank customers within cities.
+- Used a CTE (`WITH`), `LEFT JOIN`, and `COALESCE()` to calculate each customer's total spending with `SUM()`, including customers without purchases.
+- Applied `CASE WHEN` to classify customers as VIP (≥ €10,000), Regular (≥ €500 and < €10,000), or Basic (< €500).
+- Used `GROUP BY`, `COUNT()`, `AVG()`, `SUM()`, and `ROUND()` to analyze customer counts, average spending, and total revenue by segment and city.
+- Identified TOP 10 customers using `COUNT(DISTINCT ...)`, `HAVING` (at least two orders), `ORDER BY ... DESC`, and `LIMIT 10`.
+- Practiced the window function `RANK() OVER (PARTITION BY ... ORDER BY ... DESC)` to rank customers by spending within each city.
+- Summarized SQL results and prepared marketing recommendations for the team presentation.
 
 ## Key Findings
 
