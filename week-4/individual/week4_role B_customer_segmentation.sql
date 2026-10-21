@@ -1,6 +1,6 @@
 -- Kliendigruppide analüüs CTE-ga
 
--- Leian iga kleindi kogukäibe ja segmenteerin nad selle põhjal gruppidesse "VIP" (kogukäive vähemalt 10000€), "Regular" (kogukäive vähemalt 500€) ja "Uus" (kogukäive alla 500€). 
+-- Leian iga kleindi kogukäibe ja segmenteerin nad selle põhjal gruppidesse "VIP" (kogukäive vähemalt 10000€), "Regular" (kogukäive vähemalt 500€) ja "Basic" (kogukäive alla 500€). 
 
 WITH kliendi_kokkuvote AS (
   SELECT
@@ -21,14 +21,14 @@ SELECT
   CASE
     WHEN kogukäive >= 10000 THEN 'VIP'
     WHEN kogukäive >= 500 THEN 'Regular'
-    ELSE 'Uus'
+    ELSE 'Basic'
   END AS segment
 FROM kliendi_kokkuvote
 ORDER BY kogukäive DESC;
 
 -- Kokku on 2551 klienti, kes on teinud vähemalt ühe ostu ja saanud vastavalt käibele staatuse. 
 
--- Leian mitu klienti on igas segmendis (VIP, Regular, Uus)
+-- Leian mitu klienti on igas segmendis (VIP, Regular, Basic)
 
 WITH kliendi_kokkuvote AS (
     SELECT
@@ -42,14 +42,14 @@ SELECT
     CASE
         WHEN kogukäive >= 10000 THEN 'VIP'
         WHEN kogukäive >= 500 THEN 'Regular'
-        ELSE 'Uus'
+        ELSE 'Basic'
     END AS segment,
     COUNT(*) AS klientide_arv
 FROM kliendi_kokkuvote
 GROUP BY segment
 ORDER BY klientide_arv;
 
--- Segmendis VIP on 15, Regular 1707, Uus 1428 klienti (sh ostudeta kliendid).
+-- Segmendis VIP on 15, Regular 1707, Basic 1428 klienti (sh ostudeta kliendid).
 
 
 -- Leian TOP10 klienti kasutades:
@@ -93,7 +93,7 @@ SELECT
     CASE
         WHEN kogukäive >= 10000 THEN 'VIP'
         WHEN kogukäive >= 500 THEN 'Regular'
-        ELSE 'Uus'
+        ELSE 'Basic'
     END AS segment,
     COUNT(*) AS klientide_arv,
     ROUND(AVG(kogukäive), 2) AS keskmine_käive,
@@ -102,7 +102,7 @@ FROM kliendi_kokkuvote
 GROUP BY segment
 ORDER BY keskmine_käive DESC;
 
--- VIP klientide keskmine käive 21266€, Regular klientidel 1224€ ja Uus klientidel 150€. Regular klientide kogukäive 2.1mln€, Uus klientidel 214th€ ja VIP klientidel 319th€
+-- VIP klientide keskmine käive 21266€, Regular klientidel 1224€ ja Basic klientidel 150€. Regular klientide kogukäive 2.1mln€, Basic klientidel 214th€ ja VIP klientidel 319th€
 
 
 -- Millistes linnades on kõige rohkem VIP kliente?
@@ -148,7 +148,7 @@ ORDER BY regular_klientide_arv DESC;
 -- Regular kliendid on 12 erinevast linnast. Enim Tallinnast, Tartust ja Pärnust.
 
 
--- Millistes linnades on kõige rohkem Uus kliente?
+-- Millistes linnades on kõige rohkem Basic kliente?
 
 WITH kliendi_kokkuvote AS (
     SELECT
@@ -161,13 +161,13 @@ WITH kliendi_kokkuvote AS (
 )
 SELECT
     linn,
-    COUNT(*) AS uus_klientide_arv
+    COUNT(*) AS basic_klientide_arv
 FROM kliendi_kokkuvote
 WHERE kogukäive < 500
 GROUP BY linn
-ORDER BY uus_klientide_arv DESC;
+ORDER BY basic_klientide_arv DESC;
 
--- Uus kliendid on 12 erinevast linnast. Enim Tallinnast, Tartust ja Pärnust.
+-- Basic kliendid on 12 erinevast linnast. Enim Tallinnast, Tartust ja Pärnust.
 
 
 -- Lisan window funktsiooni klientide järjestamiseks
