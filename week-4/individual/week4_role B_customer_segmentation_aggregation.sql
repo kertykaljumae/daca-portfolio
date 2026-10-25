@@ -1,6 +1,6 @@
 -- Kliendigruppide analüüs CTE-ga
 
--- Leian iga kleindi kogukäibe ja segmenteerin nad selle põhjal gruppidesse "VIP" (kogukäive vähemalt 10000€), "Regular" (kogukäive vähemalt 500€) ja "Basic" (kogukäive alla 500€). 
+-- Leian iga kliendi kogukäibe ja segmenteerin nad selle põhjal gruppidesse "VIP" (kogukäive vähemalt 10000€), "Regular" (kogukäive vähemalt 500€) ja "Basic" (kogukäive alla 500€). 
 
 WITH kliendi_kokkuvote AS (
   SELECT
@@ -194,3 +194,4 @@ FROM kliendi_kokkuvote
 ORDER BY city, koht_linnas;
 
 -- Saadud tabelis on 3150 rida ehk kõik kliendid. Järjestus kogukäibe aluses linnade kaupa.
+
