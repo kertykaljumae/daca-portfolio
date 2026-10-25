@@ -34,8 +34,8 @@ I used ChatGPT to support writing, understanding, and debugging SQL queries. AI 
 I also used Google NotebookLM to generate and listen to audio summaries of the learning materials generated from the provided RAG files, helping me review and better understand the course content.
 
 ## Files
-- `week4_role B_customer_segmentation_aggregation.sql` -- my SQL queries
-- `SQL_result_W4.png` -- screenshots of the results
+- `week4_role_B_customer_segmentation_aggregation.sql` -- my SQL queries
+- `SQL_results_W4.png` -- screenshots of the results
 
 ## Teamwork
 - [SQL Aggregation -- team analysis and weekly presentation](https://docs.google.com/presentation/d/1Nc3CT6BlMXiPIJu1KvxRVRQWzAEdJ32FoD-Oh7y5uyo/edit?usp=sharing)
