@@ -1,41 +1,43 @@
-# Week 5: Data Visualization – Power BI
+# Week 5: Data Visualization – Power BI (Operations Dashboard)
 
 ## What I Did
 
-- Created interactive **Power BI dashboards** using KPI cards, line charts, bar charts, and donut charts to visualize sales performance.
-- Used **DAX measures** to calculate total revenue, customer counts, and dynamic growth percentages.
-- Worked with date tables, time-based calculations, and slicers to analyze trends across different periods.
-- Customized chart formatting, colors, data labels, and dashboard layouts for better readability.
-- Used SQL aggregation functions (`SUM()`, `COUNT()`, `GROUP BY`) and `JOIN` to prepare and analyze sales and inventory data.
+- Used SQL aggregation functions (`SUM()`, `COUNT()`, `GROUP BY`, `ORDER BY`) to analyze sales revenue by store location and total units sold.
+- Used `JOIN` to combine `inventory` and `products` tables and calculate stock quantities by product category.
+- Created an **Operations Dashboard in Power BI** using a donut chart for revenue distribution and a horizontal bar chart for inventory levels.
+- Added a **sales date slicer** for interactive filtering.
+- Added key findings and observations to the dashboard.
 
 ## Key Findings
 
-- Total sales revenue reached approximately **€2.91 million**, with Tallinn (38%) and online sales (35%) leading.
-- A total of **18,379 units** were sold.
-- Inventory analysis revealed high stock levels and 10 records with negative quantities.
-
-## Recommendations
-
-- Focus on Tallinn and online sales channels, which generate most of the revenue.
-- Review inventory levels and investigate negative stock quantities.
-- Use interactive dashboards to monitor KPIs and support data-driven decisions.
-
-## Key Learnings
-
-- Learned to create interactive and visually clear dashboards in **Power BI**.
-- Practiced **DAX**, KPI calculations, date hierarchies, and dynamic filtering.
-- Improved my ability to select suitable visualizations and communicate business insights.
+- **Total revenue:** €2.91 million, with Tallinn (38%) and online sales (35%) generating the largest shares.
+- **Units sold:** 18,379 units across all recorded sales.
+- **Inventory:** Men's clothing had the highest stock level (101,189 units), followed by footwear (86,352 units).
+- **Data quality:** Identified 10 records with negative stock quantities, totaling 246 units.
 
 ## Power BI Design Decisions
 
-- **Donut chart:** Used to visualize revenue distribution across sales locations, making it easy to compare each location's share of total sales.
-- **Horizontal bar chart:** Chosen to compare inventory quantities across product categories and clearly highlight differences in stock levels.
-- **Layout:** Placed sales and inventory charts side by side to provide a quick overview of business operations.
-- **Colors and formatting:** Used a consistent, muted color palette, clear labels, and a minimalistic design to improve readability.
+- **Donut chart:** Chosen to show the percentage distribution of revenue across sales locations.
+- **Horizontal bar chart:** Used to compare inventory quantities between product categories, sorted in descending order.
+- **Date slicer:** Added to allow interactive filtering by sales period.
+- **Layout and formatting:** Used a clean layout, consistent colors, clear labels, and short explanatory notes to highlight key insights.
+
+## Recommendations
+
+- Focus on Tallinn and online sales, which together generate approximately 73% of total revenue.
+- Review inventory levels and investigate negative stock quantities to improve data reliability.
+
+## Key Learnings
+
+- Practiced creating and formatting visualizations in **Power BI**.
+- Improved my understanding of chart selection, interactive filtering, and dashboard design.
+- Learned to present SQL analysis results as clear visual insights and business recommendations.
 
 ## AI Usage
 
-I used ChatGPT to understand and troubleshoot Power BI features, DAX formulas, slicers, and date calculations. AI also helped me improve dashboard design, select appropriate chart types, interpret results, and document my work. I also used Google NotebookLM by uploading the provided learning materials as RAG files and listening to AI-generated audio overviews to review and better understand the course content.
+I used ChatGPT to support SQL query writing, Power BI visualization, dashboard design decisions, and interpretation of results.
+
+I also used **Google NotebookLM** by uploading the provided learning materials as RAG files and listening to AI-generated audio overviews to better understand the course content.
 
 ## Files
 - `SQL_queries_results_W5.sql` -- my SQL queries
