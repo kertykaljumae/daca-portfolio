@@ -26,6 +26,13 @@
 - Practiced **DAX**, KPI calculations, date hierarchies, and dynamic filtering.
 - Improved my ability to select suitable visualizations and communicate business insights.
 
+## Power BI Design Decisions
+
+- **Donut chart:** Used to visualize revenue distribution across sales locations, making it easy to compare each location's share of total sales.
+- **Horizontal bar chart:** Chosen to compare inventory quantities across product categories and clearly highlight differences in stock levels.
+- **Layout:** Placed sales and inventory charts side by side to provide a quick overview of business operations.
+- **Colors and formatting:** Used a consistent, muted color palette, clear labels, and a minimalistic design to improve readability.
+
 ## AI Usage
 
 I used ChatGPT to understand and troubleshoot Power BI features, DAX formulas, slicers, and date calculations. AI also helped me improve dashboard design, select appropriate chart types, interpret results, and document my work. I also used Google NotebookLM by uploading the provided learning materials as RAG files and listening to AI-generated audio overviews to review and better understand the course content.
