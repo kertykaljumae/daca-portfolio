@@ -30,5 +30,10 @@
 
 I used ChatGPT to understand and troubleshoot Power BI features, DAX formulas, slicers, and date calculations. AI also helped me improve dashboard design, select appropriate chart types, interpret results, and document my work. I also used Google NotebookLM by uploading the provided learning materials as RAG files and listening to AI-generated audio overviews to review and better understand the course content.
 
+## Files
+- `SQL_queries_results_W5.sql` -- my SQL queries
+- `W5_screenshots.png` -- screenshots of the results
+- `urbanstyle_week5_dashboard_kerty_role C.pbix` -- dashboard in Power BI
+
 ## Teamwork
 - [Visualization Design -- team analysis and weekly presentation](https://docs.google.com/presentation/d/1aMea4C78ohhTKHd2bGgwj7r-7XA-iMjRVGsUb9kKnoM/edit?usp=sharing)
